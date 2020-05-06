@@ -1,0 +1,199 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header{
+  color:white;
+  height:65px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+  position: fixed;
+  z-index: 10;
+  
+}
+.header-container{
+  display:block;
+  width:1170px;
+ margin:0 auto;
+
+}
+.header-logo{
+  float:left;
+ width:124px;
+ padding-top:20px;
+ 
+}
+.roguin{
+  line-height:65px;
+  color:white;
+  display:inline-block;
+  padding:0px 25px;
+   background-color:rgba(255,255,255,0.3);
+   position:relative;
+  float:right;
+  transition:all 0.5;
+}
+
+.roguin:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+
+.header{
+  background-image:url("https://prog-8.com/images/html/advanced/top.png");
+  background-size: cover;
+  z-index:1;
+  
+
+  
+}
+.top-wrapper{
+   width:1170px;
+  margin:0 auto;
+  text-align: center;
+  padding:180px 0px 100px 0px;
+  color:white;
+}
+.header h1{
+  opacity: 0.7;
+}
+.header p{
+   opacity: 0.7;
+}
+.header h1{
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing: 5px;
+}
+.icon{
+  opacity: 0.8;
+   display:inline-block;
+   color:white;
+    padding:8px 24px;
+    border-radius: 4px;
+}
+.icon:hover{
+  opacity:1;
+}
+.touroku{
+  margin:30px 0px 15px 0px;
+  background-color:#239b76;
+}
+.Facebook{
+  background-color:#3b5998;
+ margin-top:15px;
+ margin-right: 10px;
+ padding:8px 24px;
+}
+.fa-facebook{
+  margin-right:5px;
+}
+.fa-twitter{
+  margin-right: 5px;
+}
+.Twitter{
+  background-color:#55acee;
+   margin-top:15px;
+}
+.cont{
+  height:580px;
+  background-color:#f7f7f7;
+}
+.contents{
+  width:1170px;
+}
+
+.contents h2{
+  text-align: center;
+  font-weight:normal;
+  padding-top: 80px;
+  display:block;
+  opacity:0.7;
+}
+.contents-item{
+   width:25%;
+  float:left;
+  padding-top:50px;
+  text-align:center;
+  position:relative;
+  left:50px;
+}
+.contents-item p{
+  color:#f7f7f7;
+  position:absolute;
+  top:140px;
+ width:100%; 
+}
+.contents-item h1{
+  display: inline-block;
+  margin-top:15px;
+  width:80%;
+ font-size: 13px;
+ color: #b3aeb5;
+ opacity:0.7;
+}
+/*全体*/
+.contact-form{
+  margin-top: 80px;
+   text-align:center;
+}
+/*kokomade*/
+.contact-form h2{
+  font-weight :normal;
+}
+.contact-form h3{
+  margin-bottom:50px;
+}
+.btm{
+  display:inline-block;
+  cursor:pointer;
+  background-color: #5dca88;
+  opacity: 0.8;
+  padding: 15px 40px;
+  box-shadow: 0px 7px #1a7940;
+  margin-bottom: 80px;
+  border-radius: 5px;
+}
+.btm a{
+   color:#f7f7f7;
+}
+.btm:active{
+  box-shadow:none;
+  position:relative;
+  top: 10px;
+}
+.footer{
+  border-top:1px solid #eee;
+  padding-top:30px;
+  margin-bottom: 30px;
+}
+.width{
+ width: 1170px;
+ margin:0 auto;
+}
+.footer img{
+  opacity:1;
+  width:124px;
+  
+}
+.footer p{
+  font-size: 12px;
+  opacity:1;
+  color:#b3aed5;
+}
